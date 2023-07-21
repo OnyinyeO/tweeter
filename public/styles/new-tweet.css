@@ -1,0 +1,41 @@
+.new-tweet {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-tweet > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-tweet > form > div {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.new-tweet > form > div > button {
+  font-family: Bungee;
+  background-color: #4156a1;
+  color: white;
+}
+
+#counter {
+  font-family: Bungee;
+}
+
+#tweet-text {
+  border: 0px;
+  border-bottom: solid 2px;
+  background-color: #f3f1eb;
+  color: rgb(34, 32, 32);
+}
+
+#error-message {
+  display: none; /* Hide the error message initially */
+  color: #ff0000; /* Red color for error messages */
+  background-color: #ffe6e6; /* Light red background */
+  border: 1px solid #ff0000; /* Red border */
+  padding: 10px; /* Add padding for better visibility */
+  margin-top: 10px; /* Add margin to separate it from other elements */
+}

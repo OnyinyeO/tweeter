@@ -1,0 +1,77 @@
+section {
+  margin: 30px 0px;
+}
+
+.tweet-article {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid gray;
+  padding: 30px;
+  margin: 20px 0px;
+  overflow-wrap: break-word;
+}
+
+.tweet-article:hover {
+  box-shadow: 10px 10px gray;
+}
+
+.tweet-article > header {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweet-article > header > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tweet-article > header > div > img {
+  height: 20%;
+}
+
+.tweet-article > header > div > h2 {
+  color: rgb(221, 214, 208);
+}
+
+/* Laptops / Desktops: minimum width of 1024px */
+@media only screen and (min-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* header {
+      margin: 190px 30px;
+    } */
+}
+
+hr {
+  height: 2px;
+  background-color: gray;
+  width: 100%;
+}
+
+.tweet,
+footer > span {
+  padding: 0px 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: row;
+}
+
+footer > div > span {
+  padding: 10px 10px;
+  color: #4156a1;
+}
+
+footer > div > span:hover {
+  color: #b88d2e;
+}

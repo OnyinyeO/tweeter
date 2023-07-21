@@ -1,0 +1,27 @@
+header {
+  background-color: #1f2532;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: '/public/images/profile-hex.png';
+}
+
+header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+}
+
+header h2 {
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+}
