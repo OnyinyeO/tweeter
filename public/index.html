@@ -46,10 +46,14 @@
   </head>
 
   <body>
-    <nav class="container__">
-      <span class="item">tweeter</span>
-      <div>
-        <div class="item">Write a new tweet</div>
+    <nav>
+      <span>tweeter</span>
+
+      <div class="nav_tweet">
+        <div>Write a new tweet</div>
+        <div>
+          <i class="fa fa-angle-double-down" style="color: #db2929"></i>
+        </div>
       </div>
     </nav>
 
@@ -74,7 +78,7 @@
           method="POST"
           id="tweet-form"
         >
-          <label for="tweet-text">What are you humming about? </label>
+          <label for="tweet-text">What are you humming about? </label> <br />
           <textarea name="text" id="tweet-text"></textarea>
           <div>
             <button type="submit" id="tweet-btn">Tweet</button>

@@ -5,22 +5,22 @@ nav {
   color: #ffffff;
   padding: 0 1.5em;
   position: fixed;
-}
-
-nav span {
-  font-family: 'Bungee', sans-serif;
-}
-
-.container__ {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding-right: 1.5em;
 }
 
-.item:first-child {
-  margin-right: auto;
+.nav_tweet {
+  margin-top: 22px;
 }
 
-.item:last-child {
-  margin-left: auto;
-  font-family: 'Bungee';
+nav > span {
+  font-family: Bungee;
+}
+
+nav > div {
+  text-align: center;
+  font-family: Bungee;
+  font-size: 85%;
 }
