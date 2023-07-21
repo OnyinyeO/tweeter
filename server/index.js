@@ -3,10 +3,12 @@
 // Basic express setup:
 
 const PORT = 8080;
+const cors = require('cors');
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 
+app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
@@ -30,6 +32,7 @@ require('./lib/date-adjust')();
 const tweetsRoutes = require('./routes/tweets')(DataHelpers);
 
 //support parsing of application/x-www-form-urlencoded post data
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 

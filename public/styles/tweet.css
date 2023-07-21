@@ -9,10 +9,11 @@ section {
   padding: 30px;
   margin: 20px 0px;
   overflow-wrap: break-word;
+  border-radius: 10px;
 }
 
 .tweet-article:hover {
-  box-shadow: 10px 10px gray;
+  box-shadow: 6px 6px rgb(193, 191, 191);
 }
 
 .tweet-article > header {
@@ -27,51 +28,49 @@ section {
 }
 
 .tweet-article > header > div > img {
-  height: 20%;
+  height: 30%;
+  padding-right: 20px;
 }
 
 .tweet-article > header > div > h2 {
   color: rgb(221, 214, 208);
+  padding-left: 5px;
 }
 
 /* Laptops / Desktops: minimum width of 1024px */
 @media only screen and (min-width: 1024px) {
-  body {
+  /* body {
+    display: flex;
+    flex-direction: row;
+  } */
+
+  hr {
+    height: 2px;
+    background-color: gray;
+    width: 100%;
+  }
+
+  .tweet,
+  footer > span {
+    padding: 0px 20px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer > div {
     display: flex;
     flex-direction: row;
   }
 
-  /* header {
-      margin: 190px 30px;
-    } */
-}
+  footer > div > span {
+    padding: 10px 10px;
+    color: #4156a1;
+  }
 
-hr {
-  height: 2px;
-  background-color: gray;
-  width: 100%;
-}
-
-.tweet,
-footer > span {
-  padding: 0px 20px;
-}
-
-footer {
-  display: flex;
-  justify-content: space-between;
-}
-
-footer > div {
-  display: flex;
-  flex-direction: row;
-}
-
-footer > div > span {
-  padding: 10px 10px;
-  color: #4156a1;
-}
-
-footer > div > span:hover {
-  color: #b88d2e;
+  footer > div > span:hover {
+    color: #b88d2e;
+  }
 }
