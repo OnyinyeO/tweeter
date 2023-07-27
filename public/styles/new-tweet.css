@@ -29,6 +29,7 @@
   border-bottom: solid 2px;
   background-color: #f3f1eb;
   color: rgb(34, 32, 32);
+  word-wrap: break-word;
 }
 
 #error-message {
