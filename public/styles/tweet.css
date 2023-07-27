@@ -32,8 +32,14 @@ section {
 }
 
 .tweet-article > header > div > h2 {
-  color: rgb(221, 214, 208);
+  color: rgb(191, 191, 211);
+  font-size: 22px;
   padding-left: 5px;
+}
+
+.tweet-article > header > p {
+  color: rgb(221, 205, 215);
+  word-wrap: break-word;
 }
 
 /* Laptops / Desktops: minimum width of 1024px */

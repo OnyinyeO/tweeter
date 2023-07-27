@@ -6,8 +6,7 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Final Product
 
-!["Screenshot of Home page"](docs/twitter%20home.png)
-!["Screenshot of the Body"](docs/twitter%20body.png)
+!["Screenshot of Home page"](docs/Twitter-home-page.png)
 
 ## Dependencies
 

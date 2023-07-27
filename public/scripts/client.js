@@ -45,7 +45,7 @@ $(document).ready(() => {
       <article class="tweet-article">
         <header>
           <div>
-            <h3><img src="https://i.pravatar.cc/150?u=${id}" alt="profile pic"/>${tweetObj.user.name}</h3>
+            <h3><img src="https://i.pravatar.cc/150?u=${id}" alt="profile pic"/><br/>${tweetObj.user.name}</h3>
             <h2>${tweetObj.user.handle}</h2>
           </div>
           <p class="tweet">${safeText}</p>
