@@ -1,6 +1,8 @@
 .new-tweet {
   display: flex;
   flex-direction: column;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .new-tweet > form {

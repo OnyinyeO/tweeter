@@ -103,6 +103,7 @@ $(document).ready(() => {
         success: (tweet) => {
           $('#tweets-container').prepend(createTweetElement(tweet));
           $('#tweet-text').val('');
+          $('#counter').val('140');
         },
         error: function (error) {
           console.error('Error sending data:', error);

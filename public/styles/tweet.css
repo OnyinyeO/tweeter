@@ -8,8 +8,9 @@ section {
   border: 3px solid gray;
   padding: 30px;
   margin: 20px 0px;
-  overflow-wrap: break-word;
+  /* overflow-wrap: break-word; */
   border-radius: 10px;
+  word-wrap: break-word;
 }
 
 .tweet-article:hover {
@@ -40,6 +41,7 @@ section {
 .tweet-article > header > p {
   color: rgb(221, 205, 215);
   word-wrap: break-word;
+  width: 60%;
 }
 
 /* Laptops / Desktops: minimum width of 1024px */
